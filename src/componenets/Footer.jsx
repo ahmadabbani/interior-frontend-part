@@ -5,28 +5,28 @@ function Footer() {
   return (
     <section id="contact">
       <div className="container contact">
-        <div className="row first-row">
-          <div className="col-sm-6 contact-left">
+        <div className="row first-row ">
+          <div className="col-md-6 contact-left mb-2 mb-md-0">
             <h2>Dont Miss Any Opportunity</h2>
             <p>There are many variations of passages</p>
           </div>
-          <div className="col-sm-6 contact-right">
+          <div className="col-md-6 contact-right">
             <div className="form">
               <input type="email" placeholder="Enter your email adresse" />
-              <button type="submit">
-                <i class="bi bi-send"></i>
+              <button type="submit" className="border border-primary">
+                <i className="bi bi-send"></i>
               </button>
             </div>
           </div>
         </div>
 
-        <div className="row second-row">
-          <div className="col-md-3 d-flex align-items-center">
+        <div className="row second-row border border-primary m-0">
+          <div className="col-sm-3 mb-sm-0 mb-5 d-flex align-items-center footer-logo">
             <div className="text">
               <img src={logo} />
             </div>
           </div>
-          <div className="col-md-3 contact-list">
+          <div className="col-sm-3 mb-sm-0 mb-3 contact-list">
             <h3>Quick Links</h3>
             <ul>
               <Link to="/aboutUs" style={{ textDecoration: "none" }}>
@@ -43,7 +43,7 @@ function Footer() {
               </Link>
             </ul>
           </div>
-          <div className="col-md-3 contact-list">
+          <div className="col-sm-3 mb-sm-0 mb-3 contact-list">
             <h3>
               Get In Touch <i className="bi bi-arrow-right-short"></i>
             </h3>
@@ -59,7 +59,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="col-md-3 contact-list">
+          <div className="col-sm-3  mb-sm-0 mb-3 contact-list">
             <h3>Working Hours</h3>
             <p className="m-0 p-0">Monday - Friday 09.00 - 23.00</p>
             <p>Sunday 09.00 - 16.00</p>

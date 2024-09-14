@@ -20,7 +20,7 @@ function AboutUs() {
           <div className="col-6">
             <div className="ourstory">
               <h2>
-                Our Vision <i class="bi bi-arrow-right"></i>
+                Our Vision <i className="bi bi-arrow-right"></i>
               </h2>
               <p>
                 Our vision is to redefine modern living by creating innovative,
@@ -50,7 +50,7 @@ function AboutUs() {
           <div className="col-6">
             <div className=" ourvision ">
               <h2>
-                Our Values <i class="bi bi-arrow-right"></i>
+                Our Values <i className="bi bi-arrow-right"></i>
               </h2>
               <ul>
                 <li>
@@ -76,7 +76,7 @@ function AboutUs() {
           <div className="col-12">
             <div className=" ourprocess ">
               <h2>
-                Our Process <i class="bi bi-arrow-right"></i>
+                Our Process <i className="bi bi-arrow-right"></i>
               </h2>
               <p>
                 Our process begins with sourcing high-quality, sustainable

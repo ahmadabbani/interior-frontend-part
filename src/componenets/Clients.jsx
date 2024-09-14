@@ -8,16 +8,16 @@ function Clients() {
     <section>
       <div className="container container-fluid">
         <div className="row clients">
-          <div className="col-sm-6 col-md-3 d-flex align-items-center justify-content-center">
+          <div className=" col-sm-3 mb-5 mb-sm-0 d-flex align-items-center justify-content-center">
             <img src={client1} />
           </div>
-          <div className="col-sm-6 col-md-3 d-flex align-items-center justify-content-center">
+          <div className=" col-sm-3 mb-5 mb-sm-0 d-flex align-items-center justify-content-center">
             <img src={client2} />
           </div>
-          <div className="col-sm-6 col-md-3 d-flex align-items-center justify-content-center">
+          <div className=" col-sm-3 mb-5 mb-sm-0 d-flex align-items-center justify-content-center">
             <img src={client3} />
           </div>
-          <div className="col-sm-6 col-md-3 d-flex align-items-center justify-content-center">
+          <div className=" col-sm-3 d-flex align-items-center justify-content-center">
             <img src={client4} />
           </div>
         </div>

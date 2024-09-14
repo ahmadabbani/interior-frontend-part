@@ -26,9 +26,9 @@ function Products({
             <div>
               <h1 className="section-title">Latest Works.</h1>
             </div>
-            <div>
+            <div className="d-sm-block d-none">
               <Link to="/allProducts" style={{ textDecoration: "none" }}>
-                <button className="btn">View All</button>{" "}
+                <button className="btn">View All</button>
               </Link>
             </div>
           </div>
@@ -47,6 +47,11 @@ function Products({
         error={productsError}
         selectedCategorie={selectedCategorie}
       />
+      <div className="d-sm-none d-flex  justify-content-center mt-5 ">
+        <Link to="/allProducts" style={{ textDecoration: "none" }}>
+          <button className="btn">View All</button>
+        </Link>
+      </div>
     </section>
   );
 }

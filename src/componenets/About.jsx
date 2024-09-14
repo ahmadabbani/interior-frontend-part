@@ -5,9 +5,9 @@ function About() {
   return (
     <>
       <section id="about"></section>
-      <section class="about-content">
-        <h2 class="section-title">About Us</h2>
-        <p class="about-p">
+      <section className="about-content">
+        <h2 className="section-title">About Us</h2>
+        <p className="about-p">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt,
           temporibus error? Eos esse vitae iusto recusandae necessitatibus
           similique laudantium voluptates, voluptas assumenda maxime repellendus
@@ -16,7 +16,7 @@ function About() {
           veritatis excepturi sed? Inventore!
         </p>
         <Link to="/aboutUs" style={{ textDecoration: "none" }}>
-          <button class="btn">Read More</button>
+          <button className="btn">Read More</button>
         </Link>
       </section>
     </>

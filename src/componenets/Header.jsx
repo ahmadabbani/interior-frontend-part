@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 const Header = ({ categories, loading, error }) => {
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
   return (
     <section className="header" id="header">
       <div className="header-container">
         <img src={logo} />
-        <nav className="nav">
+        <button className="navbar-toggler" type="button" onClick={toggleNav}>
+          <i className="bi bi-list" style={{ fontSize: "2rem" }}></i>
+        </button>
+        <nav className={`nav ${isNavOpen ? "nav-open" : ""}`}>
           <Link to="/" className="nav-link">
             Home
           </Link>

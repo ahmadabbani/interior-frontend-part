@@ -16,7 +16,7 @@ function Categories() {
   return (
     <section id="wt-we-do">
       <h1 className="section-title">What We Do.</h1>
-      <div className="container border border-primary container-fluid">
+      <div className="container container-fluid">
         <div className="row">
           <div className="col-9 catg-desc">
             {loading ? (

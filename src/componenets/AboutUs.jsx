@@ -17,8 +17,8 @@ function AboutUs() {
           </div>
         </div>
         <div className="row mb-xl-0 mb-5">
-          <div className="col-12 col-xl-6 border border-primary p-0">
-            <div className="ourstory border border-secondary">
+          <div className="col-12 col-xl-6 p-0">
+            <div className="ourstory ">
               <h2>
                 Our Vision <i className="bi bi-arrow-right"></i>
               </h2>

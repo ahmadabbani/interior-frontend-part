@@ -10,7 +10,7 @@ function Services() {
       <h1 className="section-title d-block d-md-none">Our Services.</h1>
       <div className="container">
         <div className="row g-0">
-          <div className="col-12 col-md-6 col-xl-5 d-flex flex-column align-items-end service-box border border-primary">
+          <div className="col-12 col-md-6 col-xl-5 d-flex flex-column align-items-end service-box">
             <img
               src={service1}
               className="mb-4 service-img service-img-first"
@@ -43,7 +43,7 @@ function Services() {
               </Link>
             </div>
           </div>
-          <div className="d-none d-xl-block col-xl-4 border border-primary">
+          <div className="d-none d-xl-block col-xl-4">
             <img src={service3} className="third-service-img" />
           </div>
           <div className=" col-12 col-md-6 col-xl-3 third-service-box service-box">

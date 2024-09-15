@@ -5,7 +5,7 @@ function Footer() {
   return (
     <section id="contact">
       <div className="container contact">
-        <div className="row first-row ">
+        <div className="row first-row m-0 ">
           <div className="col-md-6 contact-left mb-2 mb-md-0">
             <h2>Dont Miss Any Opportunity</h2>
             <p>There are many variations of passages</p>
@@ -13,14 +13,14 @@ function Footer() {
           <div className="col-md-6 contact-right">
             <div className="form">
               <input type="email" placeholder="Enter your email adresse" />
-              <button type="submit" className="border border-primary">
+              <button type="submit">
                 <i className="bi bi-send"></i>
               </button>
             </div>
           </div>
         </div>
 
-        <div className="row second-row border border-primary m-0">
+        <div className="row second-row m-0">
           <div className="col-sm-3 mb-sm-0 mb-5 d-flex align-items-center footer-logo">
             <div className="text">
               <img src={logo} />

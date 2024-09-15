@@ -109,7 +109,6 @@ p {
 #hero {
   margin: 0 0 0 0 !important;
   padding: 0 !important;
-  border: 1px solid blue;
 }
 
 #hero .divider {
@@ -332,15 +331,10 @@ p {
   left: -26.5px;
 }
 
-.hero-third-block {
-  border: 2px solid rgb(0, 255, 21);
-}
-
 #hero .hero-third-block .hero-right-img {
   width: 100%;
   max-width: 100%;
   object-fit: cover;
-  border: 1px solid red;
   height: 563px;
   background-color: #f0f0f0;
   transition: opacity 0.3s ease-in;
@@ -625,7 +619,6 @@ section .btn:hover {
 
 @media (max-width: 1200px) {
   .third-service-box {
-    border: 1px solid red;
     width: calc(50% - 60px) !important;
     margin-bottom: 20px;
   }
@@ -651,7 +644,6 @@ section .btn:hover {
 
 @media (max-width: 767.99px) {
   .third-service-box {
-    border: 1px solid red;
     width: 100% !important;
     margin-bottom: 20px;
   }
@@ -985,9 +977,8 @@ section .btn:hover {
   padding: 15px 150px 15px 15px;
   background-color: rgb(31, 31, 31);
   color: white !important;
-
   border-radius: 8px;
-  border: 1px solid blue;
+  border: none;
 }
 
 @media (max-width: 480px) {
@@ -997,11 +988,6 @@ section .btn:hover {
 
   #contact .first-row h2 {
     font-size: 26px;
-  }
-
-  #contact .first-row .form {
-    border: 1px solid red;
-
   }
 
   #contact .first-row .form input {
@@ -1147,17 +1133,27 @@ section .btn:hover {
 }
 
 @media (max-width: 576px) {
+  #contact .second-row h3 {
+    font-size: 18px;
+  }
+
+  #contact .second-row ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  #contact .second-row p {
+    font-size: 16px;
+  }
+
   .footer-logo {
     justify-content: center;
-    border: 1px solid red;
   }
 
   .footer-logo .text {
-    border: 1px solid rgb(0, 255, 13);
     display: flex;
     justify-content: center;
   }
-
 
   #contact .third-row {
     padding: 15px 15px;
@@ -1492,8 +1488,6 @@ section .btn:hover {
 
 #wt-we-do .thumbs {
   padding-right: 0;
-
-  border: 1px solid red;
 }
 
 #wt-we-do .thumbs img {
@@ -1502,7 +1496,6 @@ section .btn:hover {
   height: 110px;
   object-fit: cover;
   cursor: pointer;
-  border: 2px solid rgb(17, 0, 255);
 }
 
 #wt-we-do .thumbs div {
@@ -1519,7 +1512,6 @@ section .btn:hover {
 #wt-we-do .catgs {
   padding: 1rem 0 1rem 2rem;
   background-color: #000000;
-  border: 1px solid red;
 }
 
 #wt-we-do .catgs h4 {

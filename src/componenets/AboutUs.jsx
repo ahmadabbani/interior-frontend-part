@@ -16,8 +16,8 @@ function AboutUs() {
             <h1 className="">About Us</h1>
           </div>
         </div>
-        <div className="row ">
-          <div className="col-6">
+        <div className="row mb-xl-0 mb-5">
+          <div className="col-12 col-xl-6">
             <div className="ourstory">
               <h2>
                 Our Vision <i className="bi bi-arrow-right"></i>
@@ -35,19 +35,19 @@ function AboutUs() {
               </p>
             </div>
           </div>
-          <div className="col-6 p-0">
+          <div className="col-12 col-xl-6 p-0">
             <div className="ourstory-img">
               <img src={ourstory} />
             </div>
           </div>
         </div>
         <div className="row ">
-          <div className="col-6 p-0">
+          <div className="col-12 col-xl-6 p-0">
             <div className="ourvision-img">
               <img src={ourvalues} />
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-12 col-xl-6">
             <div className=" ourvision ">
               <h2>
                 Our Values <i className="bi bi-arrow-right"></i>

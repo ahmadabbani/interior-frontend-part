@@ -5,7 +5,7 @@ function Values() {
     <section id="values">
       <h1 className="section-title">Proudly Offering.</h1>
       <div className="container">
-        <div className="row flex-md-row flex-column align-items-center g-md-0 g-5 justify-content-center">
+        <div className="row first-row flex-md-row flex-column align-items-center g-md-0 g-5 justify-content-center">
           <div className="col-3 d-flex flex-column align-items-center">
             <svg
               className="value-icon icon-quality"

@@ -17,8 +17,8 @@ function AboutUs() {
           </div>
         </div>
         <div className="row mb-xl-0 mb-5">
-          <div className="col-12 col-xl-6">
-            <div className="ourstory">
+          <div className="col-12 col-xl-6 border border-primary p-0">
+            <div className="ourstory border border-secondary">
               <h2>
                 Our Vision <i className="bi bi-arrow-right"></i>
               </h2>
@@ -47,7 +47,7 @@ function AboutUs() {
               <img src={ourvalues} />
             </div>
           </div>
-          <div className="col-12 col-xl-6">
+          <div className="col-12 col-xl-6 p-0">
             <div className=" ourvision ">
               <h2>
                 Our Values <i className="bi bi-arrow-right"></i>
@@ -73,7 +73,7 @@ function AboutUs() {
           </div>
         </div>
         <div className="row">
-          <div className="col-12">
+          <div className="col-12 p-0">
             <div className=" ourprocess ">
               <h2>
                 Our Process <i className="bi bi-arrow-right"></i>
@@ -90,7 +90,7 @@ function AboutUs() {
               </p>
             </div>
           </div>
-          <div className="col-12">
+          <div className="col-12 p-0">
             <div className="ourprocess-img">
               <img src={ourpocess} />
             </div>

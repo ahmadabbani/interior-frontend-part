@@ -17,8 +17,8 @@ function ContactUs() {
             </p>
           </div>
         </div>
-        <div className="row ps-5 pe-5 align-items-center">
-          <div className="col-7">
+        <div className="row ps-5 pe-5 align-items-center g-5">
+          <div className="col-12 col-lg-7">
             <div className="form-container">
               <form>
                 <div className="mb-3">
@@ -48,7 +48,7 @@ function ContactUs() {
               </form>
             </div>
           </div>
-          <div className="col-5">
+          <div className="col-12 col-lg-5">
             <div className="newsletter">
               <h3>Our Newsletters</h3>
               <p>
@@ -56,7 +56,7 @@ function ContactUs() {
                 Accusamus magni ad doloribus nemo laborum. Distinctio! Lorem
                 ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <from>
+              <form>
                 <input
                   type="email"
                   className="form-control"
@@ -65,15 +65,15 @@ function ContactUs() {
                 <button type="submit" className="subscribe-btn">
                   SUBSCRIBE
                 </button>
-              </from>
+              </form>
             </div>
           </div>
         </div>
-        <div className="row infos ps-5 pe-5  justify-content-center g-4   align-items-center">
-          <div className="col-12 d-flex justify-content-between">
+        <div className="row infos ps-5 pe-5  justify-content-center g-4 align-items-center">
+          <div className="col-12 d-flex justify-content-between info-container">
             <div className=" info me-4">
               <p>
-                <i class="bi bi-telephone"></i>+999 111555
+                <i className="bi bi-telephone"></i>+999 111555
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -82,16 +82,16 @@ function ContactUs() {
             </div>
             <div className=" info me-4">
               <p>
-                <i class="bi bi-envelope"></i>info@email.com
+                <i className="bi bi-envelope"></i>info@email.com
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Excepturi, porro.
               </p>
             </div>
-            <div className=" info">
+            <div className=" info ">
               <p>
-                <i class="bi bi-geo-alt"></i>Elm Street, Beirut
+                <i className="bi bi-geo-alt"></i>Elm Street, Beirut
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

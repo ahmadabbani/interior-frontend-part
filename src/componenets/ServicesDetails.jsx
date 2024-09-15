@@ -19,14 +19,14 @@ function ServicesDetails() {
             </p>
           </div>
         </div>
-        <div className="row mb-5">
-          <div className="col-2">
+        <div className="row mb-4 mb-xl-5">
+          <div className="col-1 col-lg-2">
             <h3>01. Custom Furniture Design</h3>
           </div>
-          <div className="col-6  p-0">
+          <div className="col-12 col-md-5 col-lg-6  p-0 service-img">
             <img src={furnuture} />
           </div>
-          <div className="col-4 p-5">
+          <div className="col-12 col-md-6 col-lg-4 p-xl-5 p-3">
             <p>
               Our Custom Furniture Design service is dedicated to creating
               unique, handcrafted furniture that fits perfectly into your space.
@@ -38,14 +38,14 @@ function ServicesDetails() {
             </p>
           </div>
         </div>
-        <div className="row mb-5">
-          <div className="col-2">
+        <div className="row mb-4 mb-xl-5">
+          <div className="col-1 col-lg-2">
             <h3>02. Full Interior Design</h3>
           </div>
-          <div className="col-6 p-0">
+          <div className="col-12 col-md-5 col-lg-6 p-0 service-img">
             <img src={interior} />
           </div>
-          <div className="col-4 p-5">
+          <div className="col-12 col-md-6 col-lg-4 p-xl-5 p-3">
             <p>
               Our Full Interior Design service offers a comprehensive approach
               to transforming your entire home or individual rooms. We handle
@@ -57,14 +57,14 @@ function ServicesDetails() {
             </p>
           </div>
         </div>
-        <div className="row mb-5">
-          <div className="col-2">
+        <div className="row mb-4 mb-xl-5">
+          <div className="col-1 col-lg-2">
             <h3>03. Room-Specific Designs</h3>
           </div>
-          <div className="col-6 p-0">
+          <div className="col-12 col-md-5 col-lg-6 p-0 service-img">
             <img src={home} />
           </div>
-          <div className="col-4 p-5">
+          <div className="col-12 col-md-6 col-lg-4 p-xl-5 p-3">
             <p>
               Our Home Spaces Design service focuses on crafting specialized
               designs for key areas in your home. Whether it’s creating a

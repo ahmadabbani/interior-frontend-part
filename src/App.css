@@ -1,17 +1,19 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 html {
   scroll-behavior: smooth;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
   font-family: 'Poppins', sans-serif !important;
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   overflow-x: hidden;
 }
 
@@ -105,7 +107,7 @@ p {
 }
 
 #hero {
-  margin: 0rem 0 0 0 !important;
+  margin: 0 0 0 0 !important;
   padding: 0 !important;
   border: 1px solid blue;
 }
@@ -1869,7 +1871,6 @@ section .btn:hover {
   border: none;
   border-radius: 50px;
   padding: 15px 55px;
-
 }
 
 #contactUs .submit-btn:hover {
@@ -1893,7 +1894,7 @@ section .btn:hover {
 
 #contactUs .newsletter input {
   background-color: white;
-  border: 1px solid white;
+  border: none;
   color: black;
   width: 100%;
   border-radius: 50px;
@@ -1902,9 +1903,9 @@ section .btn:hover {
 #contactUs .newsletter button {
   width: 100%;
   border-radius: 50px;
-  padding: 15px;
+  padding: 18px;
   background-color: rgb(22, 22, 22);
-  border: 1px solid rgb(22, 22, 22);
+  border: none;
   color: white;
 }
 
@@ -1939,10 +1940,158 @@ section .btn:hover {
   color: #a1a1a1;
 }
 
+@media (max-width: 992px) {
+  #contactUs .contactus-title p {
+    padding: 1rem 10rem 0 10rem;
+  }
+
+  #contactUs .form-container .form-control {
+    width: 100%;
+  }
+
+  #contactUs .info {
+    padding: 10px 10px 0 10px;
+  }
+
+  #contactUs .info p:nth-of-type(1) {
+    gap: 7px;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+  }
+
+  #contactUs .info p {
+    font-size: 16px;
+  }
+
+  #contactUs .info i {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #contactUs .contactus-title p {
+    padding: 1rem 5rem 0 5rem;
+  }
+
+  #contactUs .contactus-title h1 {
+    font-size: 60px;
+  }
+
+  #contactUs .info-container {
+    flex-direction: column !important;
+    align-items: center;
+    gap: 25px;
+  }
+
+  #contactUs .infos .info {
+    margin-right: 0 !important;
+  }
+}
+
+@media (max-width: 580px) {
+  #contactUs .contactus-title {
+    padding: 40px 0;
+  }
+
+  #contactUs .contactus-title h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  #contactUs .contactus-title p {
+    font-size: 14px;
+  }
+
+  #contactUs .form-control {
+    padding: 12px;
+    margin-bottom: 15px;
+  }
+
+  #contactUs .submit-btn {
+    padding: 12px 40px;
+    font-size: 14px;
+  }
+
+  #contactUs .form-control::placeholder {
+    font-size: 14px;
+  }
+
+  #contactUs .newsletter {
+    padding: 1.5rem 1rem;
+  }
+
+  #contactUs .newsletter h3 {
+    font-size: 26px;
+  }
+
+  #contactUs .newsletter p {
+    padding: 0.5rem 1rem 1rem 0;
+    font-size: 14px;
+  }
+
+  #contactUs .newsletter button {
+    padding: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  #contactUs .contactus-title {
+    padding: 30px 0;
+  }
+
+  #contactUs .contactus-title h1 {
+    font-size: 40px;
+  }
+
+  #contactUs .contactus-title p {
+    padding: 1rem 2rem 0 2rem;
+  }
+
+  #contactUs .form-control {
+    padding: 10px;
+    margin-bottom: 12px;
+  }
+
+  #contactUs textarea {
+    margin-top: 25px;
+    height: 80px;
+  }
+
+  #contactUs .submit-btn {
+    padding: 12px 40px;
+    font-size: 12px;
+  }
+
+  #contactUs .form-control::placeholder {
+    font-size: 12px;
+  }
+
+  #contactUs .newsletter h3 {
+    font-size: 24px;
+  }
+
+  #contactUs .newsletter p {
+    padding: 0.25rem 1rem 0.5rem 0;
+    font-size: 12px;
+  }
+
+  #contactUs .newsletter button {
+    padding: 12px;
+    font-size: 12px;
+  }
+}
+
 #aboutus {
   margin: 0 !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+}
+
+#aboutus .ourstory,
+#aboutus .ourprocess {
+  width: 100% !important;
 }
 
 #aboutus .aboutus-title {
@@ -2202,6 +2351,7 @@ section .btn:hover {
   #aboutus .ourstory-img img,
   #aboutus .ourvision-img img {
     height: 400px;
+    border-radius: 0;
   }
 
   #aboutus .ourprocess-img img {
@@ -2209,6 +2359,7 @@ section .btn:hover {
     max-width: 100%;
     border-radius: 0;
     height: 400px;
+
   }
 
   #aboutus .ourprocess p {
@@ -2216,7 +2367,16 @@ section .btn:hover {
   }
 }
 
+@media (max-width: 580px) {
+  #aboutus .aboutus-title {
+    padding: 40px 0;
+  }
+}
+
 @media (max-width: 425px) {
+  #aboutus .aboutus-title {
+    padding: 30px 0;
+  }
 
   #aboutus .ourstory,
   #aboutus .ourvision {
@@ -2301,7 +2461,7 @@ section .btn:hover {
   width: 100%;
   object-fit: cover;
   margin: 0;
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 #whatweoffer p {
@@ -2366,6 +2526,119 @@ section .btn:hover {
     padding-top: 25px;
   }
 }
+
+@media (max-width: 1200px) {
+  #whatweoffer p {
+    font-size: 18px;
+    line-height: 1.4rem;
+  }
+
+  #whatweoffer h3 {
+    font-size: 35px;
+    padding: 30px 60px 60px 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  #whatweoffer .services-title p {
+    padding: 1rem 10rem 0 10rem;
+  }
+
+  #whatweoffer p {
+    font-size: 16px;
+    line-height: 1.2rem;
+  }
+
+  #whatweoffer h3 {
+    font-size: 23px;
+    padding: 20px 20px 30px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  #whatweoffer .services-title h1 {
+    font-size: 60px;
+  }
+
+  #whatweoffer .services-title p {
+    padding: 1rem 5rem 0 5rem;
+  }
+
+  #whatweoffer p {
+    line-height: 1.4rem;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #whatweoffer h3 {
+    font-size: 28px;
+    padding: 28px 28px 38px 28px;
+  }
+
+  #whatweoffer .service-img {
+    max-width: 70%;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 580px) {
+  #whatweoffer .services-title {
+    padding: 40px 0;
+  }
+
+  #whatweoffer .services-title h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+
+  #whatweoffer .services-title p {
+    font-size: 14px;
+  }
+
+  #whatweoffer p {
+    font-size: 14px;
+    line-height: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #whatweoffer h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 15px 15px 25px 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  #whatweoffer .services-title {
+    padding: 30px 0;
+  }
+
+  #whatweoffer .services-title h1 {
+    font-size: 40px;
+  }
+
+  #whatweoffer .service-img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #whatweoffer .service-img img {
+    height: 200px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 376px) {
+  #whatweoffer h3 {
+    font-size: 18px;
+    padding: 15px 10px 20px 10px;
+  }
+}
+
 
 #values {
   background-color: #000000;

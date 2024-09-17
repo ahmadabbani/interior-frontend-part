@@ -12,8 +12,9 @@ function ContactUs() {
           <div className="col-12 contactus-title">
             <h1 className="">Contact Us</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              minus, consequatur mollitia optio tempore officiis!
+              Feel free to contact us for any inquiries or support. We're
+              dedicated to helping you find the perfect solutions to enhance
+              your space.
             </p>
           </div>
         </div>
@@ -73,7 +74,7 @@ function ContactUs() {
           <div className="col-12 d-flex justify-content-between info-container">
             <div className=" info me-4">
               <p>
-                <i className="bi bi-telephone"></i>+999 111555
+                <i className="bi bi-telephone"></i>+961 79 187 561
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -82,7 +83,7 @@ function ContactUs() {
             </div>
             <div className=" info me-4">
               <p>
-                <i className="bi bi-envelope"></i>info@email.com
+                <i className="bi bi-envelope"></i>info@analytics-expertise.com
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -91,7 +92,7 @@ function ContactUs() {
             </div>
             <div className=" info ">
               <p>
-                <i className="bi bi-geo-alt"></i>Elm Street, Beirut
+                <i className="bi bi-geo-alt"></i>Maten-Dekweneh, Beirut
               </p>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.

@@ -36,8 +36,8 @@ function ProductsSection() {
                 <button className="back-button" onClick={handleBackClick}>
                   <i className="bi bi-arrow-left-short"></i>
                 </button>
-                <div className="col-6">
-                  <h1 class="section-title">{decodedTitle}</h1>
+                <div className="col-12 col-sm-6">
+                  <h1 className="section-title">{decodedTitle}</h1>
                   <p>
                     {" "}
                     {
@@ -46,7 +46,7 @@ function ProductsSection() {
                     }
                   </p>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-sm-6">
                   <img
                     src={
                       products[0]?.attributes.categories.data[0]?.attributes

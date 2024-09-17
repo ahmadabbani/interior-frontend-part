@@ -10,7 +10,7 @@ function Product({ category, name, imageUrl, id }) {
         backgroundPosition: "center",
       }}
     >
-      <Link to={`/products/${id}`} style={{ textDecoration: "none" }}>
+      <Link to={`/product_details/${id}`} style={{ textDecoration: "none" }}>
         <div className="plus">+</div>
       </Link>
       <div className="work-info d-flex flex-column align-items-center justify-content-center">

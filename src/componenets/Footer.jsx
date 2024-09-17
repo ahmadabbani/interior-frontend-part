@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/warner & spencer-Photoroom.png";
 import { Link } from "react-router-dom";
 function Footer() {
   return (
@@ -49,24 +49,30 @@ function Footer() {
             </h3>
             <ul>
               <li>
-                <strong>Address: </strong>Elm Street, Mystic Falls, Beirut.
+                <strong>Address: </strong>Maten-Dekweneh, Beirut
               </li>
               <li>
-                <strong>Phone: </strong>+999 111555
+                <strong>Phone: </strong>+961 79 187 561
               </li>
               <li>
-                <strong>Email: </strong>info@email.com
+                <strong>Email: </strong>info@analytics-expertise.com
               </li>
             </ul>
           </div>
           <div className="col-sm-3  mb-sm-0 mb-3 contact-list">
             <h3>Working Hours</h3>
-            <p className="m-0 p-0">Monday - Friday 09.00 - 23.00</p>
-            <p>Sunday 09.00 - 16.00</p>
+            <p className="m-0 p-0">
+              <strong style={{ color: "#383838" }}>Monday to Friday:</strong>{" "}
+              9:00 AM - 5:00 PM
+            </p>
+            <p>
+              <strong style={{ color: "#383838" }}>Sunday:</strong> 9:00 AM -
+              2:00 PM
+            </p>
           </div>
         </div>
-        <div className="row third-row">
-          <div className="col">
+        <div className="row third-row m-0">
+          <div className="col-12">
             <div className="content">
               <div className="copyright">
                 <p>&copy; 2024 Warner & Spencer</p>

@@ -18,9 +18,9 @@ function Services() {
             <div className="content">
               <h2>01. Furniture Design</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt ad mollitia, temporibus deleniti ab impedit. Iure
-                voluptatum quam cumque. Exercitationem?
+                We create custom furniture that combines beauty and comfort. Our
+                goal is to design pieces that fit your style and needs, bringing
+                a perfect balance of looks and function to your space.
               </p>
               <Link to="/services" style={{ textDecoration: "none" }}>
                 <button>
@@ -32,9 +32,10 @@ function Services() {
             <div className="content">
               <h2>02. Interior Design</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt ad mollitia, temporibus deleniti ab impedit. Iure
-                voluptatum quam cumque. Exercitationem?
+                We offer personalized interior design services to transform your
+                space. Our approach focuses on understanding your vision and
+                creating a cohesive, stylish environment that enhances both
+                comfort and aesthetics
               </p>
               <Link to="/services" style={{ textDecoration: "none" }}>
                 <button>
@@ -53,11 +54,11 @@ function Services() {
                 src={service3mobile}
                 className=" d-block d-xl-none mb-4 service-img "
               />
-              <h2>03. Kitchen And More</h2>
+              <h2>03. Focused Rooms</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt ad mollitia, temporibus deleniti ab impedit. Iure
-                voluptatum quam cumque. Exercitationem?
+                We offer specialized design services for individual rooms like
+                kitchens, bedrooms, and offices, focusing on their unique
+                furniture and layout needs.
               </p>
               <Link to="/services" style={{ textDecoration: "none" }}>
                 <button>

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import hero1 from "../assets/images/hero-left.jpg";
 import hero2 from "../assets/images/hero-right.jpg";
-import hero2mobile from "../assets/images/services1.jpg";
+import hero2mobile from "../assets/images/kara-eads-buhmhprfo3g-unsplash.jpg";
 function Home() {
   const [loaded, setLoaded] = useState(false);
   const [loadedTwo, setLoadedTwo] = useState(false);
   return (
     <section id="hero">
       <div className=" container">
-        <div className="row">
+        <div className="row m-0">
           <div className="d-none col-md-2 d-md-block left-img p-0 m-0">
             <img
               src={hero1}

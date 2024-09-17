@@ -19,6 +19,7 @@ import ContactUs from "./componenets/ContactUs";
 import AboutUs from "./componenets/AboutUs";
 import ServicesDetails from "./componenets/ServicesDetails";
 import Values from "./componenets/Values";
+import ProductDetails from "./componenets/ProductDetails";
 
 function App() {
   const [selectedCategorie, setSelectedCategorie] = useState("all");
@@ -72,6 +73,8 @@ function App() {
           />
           {/* Dynamic route for product details */}
           <Route path="/products/:id" element={<SingleProduct />} />
+          {/* test */}
+          <Route path="/product_details/:id" element={<ProductDetails />} />
           {/* Dynamic route for categorized products */}
           <Route path="/category/:title" element={<ProductsSection />} />
           <Route path="/services" element={<ServicesDetails />} />

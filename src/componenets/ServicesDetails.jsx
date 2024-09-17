@@ -14,8 +14,9 @@ function ServicesDetails() {
           <div className="col-12 services-title">
             <h1 className="">What We Offer</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
-              minus, consequatur mollitia optio tempore officiis!
+              Our services are designed to bring comfort, style, and quality to
+              your living spaces. We're committed to delivering solutions that
+              meet your unique needs.
             </p>
           </div>
         </div>

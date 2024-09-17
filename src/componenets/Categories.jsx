@@ -17,8 +17,8 @@ function Categories() {
     <section id="wt-we-do">
       <h1 className="section-title">What We Do.</h1>
       <div className="container container-fluid">
-        <div className="row">
-          <div className="col-9 catg-desc">
+        <div className="row m-0">
+          <div className="col-9 col-sm-10 catg-desc">
             {loading ? (
               <div className="loading-catg-img"> </div>
             ) : error ? (
@@ -48,7 +48,7 @@ function Categories() {
             )}
           </div>
 
-          <div className="col-3 d-flex flex-column thumbs gap-3 m-0 p-0">
+          <div className="col-3 col-sm-2 d-flex flex-column thumbs  align-items-center  gap-3 m-0 p-0">
             {/* Render thumbnail images */}
             {categories.length > 0 ? (
               categories.map((category, index) => (
@@ -74,7 +74,7 @@ function Categories() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row m-0">
           <div className="col-12 catgs">
             {/* Render category titles */}
             {categories.length > 0 ? (

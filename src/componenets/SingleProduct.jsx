@@ -13,7 +13,7 @@ function SingleProduct() {
   } = useFetch(`/products/${id}?populate=*`);
   const product = productDetails?.attributes;
 
-  //scroll top when click on similar product
+  // scroll top when click on similar product
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [id]);
@@ -53,11 +53,11 @@ function SingleProduct() {
             <div className="container details">
               <div className="row  align-items-center">
                 <ul className=" col-2 first-list ">
-                  <li>Name:</li>
-                  <li>Type:</li>
-                  <li>Price:</li>
-                  <li>Material:</li>
-                  <li>Color:</li>
+                  <li>Name</li>
+                  <li>Type</li>
+                  <li>Price</li>
+                  <li>Material</li>
+                  <li>Color</li>
                 </ul>
                 <ul className=" col-3 second-list ">
                   <li>{product.name}</li>

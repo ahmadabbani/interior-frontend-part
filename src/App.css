@@ -4,6 +4,13 @@
   box-sizing: border-box !important;
 }
 
+
+*::before,
+*::after {
+  box-sizing: inherit !important;
+}
+
+
 html {
   scroll-behavior: smooth;
   margin: 0 !important;
@@ -1130,6 +1137,10 @@ section .btn:hover {
     font-size: 20px;
   }
 
+  #contact .second-row {
+    padding: 40px 25px;
+  }
+
   #contact .second-row ul li {
     margin-bottom: 7px;
     font-size: 14px;
@@ -1156,9 +1167,13 @@ section .btn:hover {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 578px) {
   #contact .second-row h3 {
     font-size: 18px;
+  }
+
+  #contact .second-row {
+    padding: 20px 25px;
   }
 
   #contact .second-row ul li {
@@ -1177,6 +1192,7 @@ section .btn:hover {
   .footer-logo .text {
     display: flex;
     justify-content: center;
+    width: 65%;
   }
 
   #contact .third-row {
@@ -1197,7 +1213,12 @@ section .btn:hover {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+
+  .footer-logo .text {
+    width: 80%;
+  }
+
   #contact .third-row .content .copyright p {
     font-size: 12px;
   }
@@ -1568,8 +1589,12 @@ section .btn:hover {
 
 @media (max-width: 768px) {
   #wt-we-do .catg-desc .catg-text {
-    padding: 1.5rem 0.5rem 1.5rem 1.5rem;
+    padding: 1.5rem 0.5rem 1.5rem 1rem;
     width: 60%;
+  }
+
+  #wt-we-do .catgs {
+    padding: 1rem 0 1rem 1rem;
   }
 
   #wt-we-do .catg-desc .catg-text p {
@@ -1585,7 +1610,7 @@ section .btn:hover {
 
 @media (max-width: 580px) {
   #wt-we-do .catg-desc .catg-text {
-    padding: 1rem 0.5rem 1rem 1.5rem;
+    padding: 1rem 0.5rem 1rem 1rem;
     width: 70%;
   }
 }
@@ -2934,6 +2959,10 @@ section .btn:hover {
   object-fit: cover;
   width: 150px;
   height: 100px;
+}
+
+#SingleProduct .product-gallery .thumbnails .active {
+  opacity: 0.5;
 }
 
 #SingleProduct .product-details {

@@ -14,8 +14,8 @@ function ProductDetails() {
   const product = productDetails?.attributes;
   const activeImage =
     activeImageIndex === "origin"
-      ? product?.image?.data?.attributes?.formats?.small.url
-      : product?.gallery?.data[activeImageIndex]?.attributes?.formats?.small
+      ? product?.image?.data?.attributes?.formats?.medium.url
+      : product?.gallery?.data[activeImageIndex]?.attributes?.formats?.medium
           .url;
   // scroll top when click on similar product
   useEffect(() => {
@@ -60,7 +60,9 @@ function ProductDetails() {
                       {/*thumbnail images */}
                       <img
                         key={product?.id}
-                        className="thumbnail"
+                        className={`thumbnail ${
+                          activeImageIndex === "origin" ? "active" : ""
+                        }`}
                         src={
                           product?.image?.data?.attributes?.formats?.thumbnail
                             .url
@@ -72,7 +74,9 @@ function ProductDetails() {
                       {product?.gallery?.data?.map((image, index) => (
                         <img
                           key={image?.id}
-                          className="thumbnail"
+                          className={`thumbnail ${
+                            index === activeImageIndex ? "active" : ""
+                          }`}
                           src={image?.attributes.formats.thumbnail.url}
                           alt={`Thumbnail ${index}`}
                           onClick={() => setActiveImageIndex(index)} // assuming you want to set the clicked image as active
@@ -92,20 +96,20 @@ function ProductDetails() {
                     <div className="product-infos">
                       <span>
                         {" "}
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                           check_circle
                         </span>
                         For {product.categories.data[0].attributes.title}
                       </span>
                       <span>
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                           check_circle
                         </span>
                         Made of {product.material}
                       </span>
                       <span>
                         {" "}
-                        <span class="material-symbols-outlined">
+                        <span className="material-symbols-outlined">
                           check_circle
                         </span>
                         Available in {product.color}

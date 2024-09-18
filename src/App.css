@@ -15,13 +15,14 @@ html {
   scroll-behavior: smooth;
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden !important;
 }
 
 body {
   font-family: 'Poppins', sans-serif !important;
   margin: 0 !important;
   padding: 0 !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 /*reusable styles*/
@@ -453,6 +454,11 @@ p {
     font-size: 14px !important;
   }
 
+  section .btn {
+    padding: 11px 15px !important;
+    font-size: 12px !important;
+  }
+
 
 }
 
@@ -460,11 +466,6 @@ p {
   .about-content {
     padding: 1rem 1rem 1rem 1rem;
     margin-top: -400px;
-  }
-
-  section .btn {
-    padding: 11px 15px !important;
-    font-size: 13px !important;
   }
 }
 
@@ -944,26 +945,6 @@ section .btn:hover {
 
   .item.loading {
     height: 300px;
-  }
-}
-
-@media (max-width: 440px) {
-
-  .works .filter-btns {
-    margin: 0 8px;
-    font-size: 12px;
-  }
-
-  .works .filter-btns.bold {
-    padding: 6px;
-  }
-
-}
-
-@media (max-width: 375px) {
-  .works .filter-btns {
-    margin: 0 6px;
-    font-size: 10px;
   }
 }
 
@@ -1448,6 +1429,7 @@ section .btn:hover {
 .back-button i {
   font-size: 30px;
   display: flex;
+  color: rgb(0, 0, 0) !important;
   align-items: center;
   justify-content: center;
 }
@@ -1621,6 +1603,10 @@ section .btn:hover {
     font-size: 20px;
   }
 
+  #wt-we-do .catg-desc img {
+    height: 400px;
+  }
+
   #wt-we-do .catgs .catg-title-loading {
     padding: 11.5px 0;
     font-size: 20px;
@@ -1631,7 +1617,7 @@ section .btn:hover {
   }
 
   #wt-we-do .catg-desc .catg-text p {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -1737,16 +1723,24 @@ section .btn:hover {
 }
 
 @media (max-width: 425px) {
+  #productsSection {
+    padding: 1rem 0;
+  }
+
   #productsSection .section-desc h1 {
     margin-left: 15px;
     margin-bottom: 1.5rem;
   }
 
   #productsSection .section-desc .back-button {
-    top: -70px;
+    top: -60px;
     left: 25px;
     width: 36px;
     height: 36px;
+  }
+
+  #productsSection .section-desc .back-button i {
+    font-size: 25px;
   }
 
   #productsSection .section-desc p {
@@ -1769,8 +1763,25 @@ section .btn:hover {
 }
 
 #allProducts .back-button {
-  top: -65px;
+  top: -75px;
   left: 30px;
+}
+
+@media (max-width: 425px) {
+  #allProducts {
+    padding: 1rem 0;
+  }
+
+  #allProducts .back-button {
+    width: 36px;
+    height: 36px;
+    top: -60px;
+    left: 25px;
+  }
+
+  #allProducts .back-button i {
+    font-size: 25px;
+  }
 }
 
 #header {
@@ -2514,12 +2525,6 @@ section .btn:hover {
     padding: 30px 0;
   }
 
-  #aboutus .ourstory,
-  #aboutus .ourvision {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   #aboutus .ourstory p {
     font-size: 14px;
     line-height: 1.5rem;
@@ -2541,8 +2546,7 @@ section .btn:hover {
   #aboutus .ourprocess p {
     font-size: 14px;
     line-height: 1.5rem;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+
   }
 }
 
@@ -2847,6 +2851,21 @@ section .btn:hover {
     height: 54px;
   }
 
+}
+
+@media (max-width: 580px) {
+  #values h4 {
+    font-size: 25px;
+  }
+
+  #values .value-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  #values .value-icon {
+    margin-bottom: 0px;
+  }
 }
 
 
@@ -3260,6 +3279,7 @@ section .btn:hover {
     width: 35px;
     height: 35px;
     top: -50px;
+    left: 10px;
   }
 
   #SingleProduct .back-button i {
@@ -3379,22 +3399,10 @@ section .btn:hover {
 
 @media (max-width: 376px) {
   #SingleProduct .back-button {
-    width: 23px;
-    height: 23px;
-    top: -25px;
+    top: -55px;
   }
 
-  #SingleProduct .back-button i {
-    font-size: 20px;
-  }
-
-  #SingleProduct {
-    margin-top: 2rem;
-  }
-
-  #SingleProduct .product-gallery .main-image {
-    height: 240px
-  }
+  #SingleProduct .product-gallery .main-image {}
 
   #SingleProduct .product-gallery .main-img-container {
     margin: 5px 0 0 0;

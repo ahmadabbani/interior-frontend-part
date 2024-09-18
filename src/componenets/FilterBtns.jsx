@@ -10,7 +10,7 @@ function FilterBtns({
   return (
     <div className="container container-fluid">
       <div className="row">
-        <div className="col d-flex justify-content-center align-items-center filter">
+        <div className="col d-flex justify-content-center align-items-center flex-wrap filter">
           {loading ? (
             <p>Loading...</p>
           ) : error ? (

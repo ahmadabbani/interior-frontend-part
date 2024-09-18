@@ -18,7 +18,7 @@ function Categories() {
       <h1 className="section-title">What We Do.</h1>
       <div className="container container-fluid">
         <div className="row m-0">
-          <div className="col-9 col-sm-10 catg-desc">
+          <div className="col-12 col-sm-10 catg-desc">
             {loading ? (
               <div className="loading-catg-img"> </div>
             ) : error ? (
@@ -44,11 +44,11 @@ function Categories() {
                 </div>
               </>
             ) : (
-              <div className="loading-catg-img"> </div>
+              <p style={{ textAlign: "center" }}>Not Available</p>
             )}
           </div>
 
-          <div className="col-3 col-sm-2 d-flex flex-column thumbs  align-items-center  gap-3 m-0 p-0">
+          <div className="col-12 col-sm-2 d-flex d-none d-sm-flex flex-sm-column thumbs  align-items-center  gap-3 m-0 p-0">
             {/* Render thumbnail images */}
             {categories.length > 0 ? (
               categories.map((category, index) => (

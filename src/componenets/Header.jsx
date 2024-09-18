@@ -15,10 +15,14 @@ const Header = ({ categories, loading, error }) => {
           <i className="bi bi-list" style={{ fontSize: "2rem" }}></i>
         </button>
         <nav className={`nav ${isNavOpen ? "nav-open" : ""}`}>
-          <Link to="/" className="nav-link">
+          <Link to="/" className="nav-link" onClick={() => setIsNavOpen(false)}>
             Home
           </Link>
-          <Link to="/aboutUs" className="nav-link">
+          <Link
+            to="/aboutUs"
+            className="nav-link"
+            onClick={() => setIsNavOpen(false)}
+          >
             About Us
           </Link>
           {/* Dropdown Link for Our Works */}
@@ -42,20 +46,31 @@ const Header = ({ categories, loading, error }) => {
                     key={index}
                     to={`/category/${encodeURIComponent(cat.attributes.title)}`}
                     className="dropdown-link"
+                    onClick={() => setIsNavOpen(false)}
                   >
                     {cat.attributes.title}
                     <i className="bi bi-arrow-right-short"></i>
                   </Link>
                 ))
               ) : (
-                <p className="header-loading">No categories found</p>
+                <p style={{ textAlign: "center" }} className="header-loading">
+                  No categories found
+                </p>
               )}
             </div>
           </div>
-          <Link to="/services" className="nav-link">
+          <Link
+            to="/services"
+            className="nav-link"
+            onClick={() => setIsNavOpen(false)}
+          >
             Services
           </Link>
-          <Link to="/contactUs" className="nav-link">
+          <Link
+            to="/contactUs"
+            className="nav-link"
+            onClick={() => setIsNavOpen(false)}
+          >
             Contact Us
           </Link>
         </nav>

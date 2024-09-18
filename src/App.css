@@ -252,7 +252,7 @@ p {
   }
 
   #hero .hero-p {
-    color: rgb(43, 43, 43) !important;
+    color: rgb(24, 24, 24) !important;
     font-size: 25px !important;
     font-weight: 500;
   }
@@ -301,7 +301,7 @@ p {
 
 @media (max-width: 425px) {
   #hero .hero-third-block .second-image .hero-right-img {
-    height: 60vh;
+    height: 70vh;
   }
 }
 

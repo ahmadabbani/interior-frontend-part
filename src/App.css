@@ -301,7 +301,7 @@ p {
 
 @media (max-width: 425px) {
   #hero .hero-third-block .second-image .hero-right-img {
-    height: 70vh;
+    height: 80vh;
   }
 }
 
@@ -1820,14 +1820,19 @@ section .btn:hover {
 }
 
 @media (max-width: 475px) {
+  #header {
+    padding: 0.5rem 0;
+  }
+
   .header-container img {
-    width: 24%;
+    width: 28%;
   }
 }
 
 @media (max-width: 376px) {
+
   .header-container img {
-    width: 27%;
+    width: 30%;
   }
 }
 
